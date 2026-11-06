@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Poppins', sans-serif;
+    --font-body: 'Inter', sans-serif;
+  }
+
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    font-family: var(--font-body);
+    color: #1E1E1E;
+    background-color: #FFF8F0;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    text-wrap: balance;
+  }
+
+  /* Ensure touch targets meet minimum 44px standards on touch screens */
+  @media (pointer: coarse) {
+    button, a, input, select, textarea {
+      min-height: 44px;
+    }
+  }
+
+  /* Accessibility & performance for devices with reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    *, ::before, ::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+/* Custom utility classes */
+.font-heading {
+  font-family: 'Poppins', sans-serif;
+}
+
+.font-body {
+  font-family: 'Inter', sans-serif;
+}

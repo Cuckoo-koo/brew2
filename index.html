@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Daily Brew | Everyday Coffee Destination in Chennai</title>
+    <meta
+      name="description"
+      content="From freshly brewed artisanal coffee to delicious sandwiches and brownies, discover your favourite spot to relax, recharge, and reconnect at The Daily Brew in Chennai."
+    />
+    <link rel="canonical" href="https://thedailybrew.example/" />
+    
+    <!-- OpenGraph Social Sharing -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="The Daily Brew | Everyday Coffee Destination in Chennai" />
+    <meta
+      property="og:description"
+      content="From freshly brewed artisanal coffee to delicious sandwiches and brownies, discover your favourite spot in Chennai."
+    />
+    <meta property="og:site_name" content="The Daily Brew" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The Daily Brew | Everyday Coffee Destination" />
+    <meta
+      name="twitter:description"
+      content="Freshly brewed coffee, warm hospitality, and handcrafted treats in Chennai."
+    />
+
+    <!-- Google Fonts: Poppins (Headings) & Inter (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Schema.org Structured Data (CafeOrCoffeeShop / LocalBusiness) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "CafeOrCoffeeShop",
+        "name": "The Daily Brew",
+        "image": "https://thedailybrew.example/assets/hero.jpg",
+        "description": "Your everyday coffee destination in Chennai offering artisanal brewed beverages and fresh café bites.",
+        "telephone": "+91 98765 43210",
+        "email": "hello@thedailybrew.example",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chennai",
+          "addressCountry": "IN"
+        },
+        "priceRange": "₹100 - ₹350",
+        "servesCuisine": ["Coffee", "Artisanal Beverages", "Café", "Pastries"],
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "07:30",
+            "closes": "22:30"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Saturday", "Sunday"],
+            "opens": "08:00",
+            "closes": "23:00"
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body class="bg-[#FFF8F0] text-[#1E1E1E] antialiased selection:bg-[#D9B382]/30 selection:text-[#6F4E37]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

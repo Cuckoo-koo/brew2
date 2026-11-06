@@ -1,0 +1,6 @@
+{
+  "name": "The Daily Brew",
+  "description": "A premium, modern café website for The Daily Brew, featuring a menu, brand story, and contact information.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

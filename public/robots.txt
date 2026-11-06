@@ -1,0 +1,6 @@
+# robots.txt for The Daily Brew (Chennai)
+User-agent: *
+Allow: /
+Disallow: /admin
+
+Sitemap: https://thedailybrew.example/sitemap.xml
